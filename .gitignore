@@ -1,0 +1,48 @@
+# .gitignore for .NET Console App
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.tmp
+*.userprefs
+*.log
+*.pid
+*.sublime-workspace
+
+# Visual Studio
+.vscode/
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Auto-generated files
+*.generated.cs
+Generated_Code/
+
+# DotNet Specified
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.old
+*.orig
+*.rej
